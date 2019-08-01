@@ -1,6 +1,6 @@
 - name: minemeld-node-prototypes repo
   git:
-    repo: "{{prototype_repo}}"
+    repo: "https://github.com/blaverick62/minemeld-node-prototypes.yml"
     clone: yes
     dest: "{{prototypes_repo_directory}}/minemeld-node-prototypes"
     version: "{{minemeld_prototypes_version}}"
